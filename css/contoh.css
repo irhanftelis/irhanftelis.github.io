@@ -1,5 +1,5 @@
 body {
-	background-color: cyan;
+	background-color: white;
 }
 
 .ketengah {
@@ -17,7 +17,7 @@ img {
 	border-radius: 10px 10px 10px 10px;
 }
 .foto {
-	background-color: #d5f5ec;
+	background-color: cyan;
 	padding: 20px;
 	float: left;
 	margin: 20px;
