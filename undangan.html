@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Undangan Pernikahan</h1>
+    </header>
+    
+    <div class="container">
+        <section class="section" id="groom-bride-info">
+            <h2 class="section-title">Selamat Datang di Pernikahan Kami</h2>
+            <p>Kami bersama-sama mengundang Anda untuk merayakan momen spesial kami!</p>
+            <p class="highlight">Groom : Irhan Saputra</p>
+            <p class="highlight">Bride: Elis Kartikasari</p>
+            <p class="highlight">Tanggal: 12 Mei 2024</p>
+            <p class="highlight">Waktu: 08.00 WIB</p>
+            <p class="highlight">Tempat: Gedung Pernikahan Bahagia, Jl. Bahagia No. 123, Kota Bahagia</p>
+        </section>
+
+        <section class="section" id="rsvp">
+            <h2 class="section-title">Konfirmasi Kehadiran Anda</h2>
+            <form id="rsvp-form" class="form">
+                <label for="name">Nama:</label><br>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <label for="attendance">Kehadiran:</label><br>
+                <select id="attendance" name="attendance" required>
+                    <option value="">Pilih</option>
+                    <option value="Hadir">Akan Hadir</option>
+                    <option value="Tidak Hadir">Tidak Bisa Hadir</option>
+                </select><br>
+                <label for="message">Pesan Tambahan:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br>
+                <button type="submit">Konfirmasi</button>
+            </form>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>Terima kasih atas doa dan restu Anda.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
