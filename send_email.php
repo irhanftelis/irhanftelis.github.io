@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'];
 
     // Konfigurasi email
-    $to = 'irhansaputra3@gmail.com'; // Ganti dengan alamat email tujuan
+    $to = 'irhansaputra0608@gmail.com'; // Ganti dengan alamat email tujuan
     $subject = 'Konfirmasi Kehadiran Pernikahan';
     $body = "Nama: $name\n";
     $body .= "Email: $email\n";
